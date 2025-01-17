@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cote-moa
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:8080/como
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: create
